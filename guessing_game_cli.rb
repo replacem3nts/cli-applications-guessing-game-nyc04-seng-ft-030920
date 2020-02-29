@@ -8,5 +8,5 @@ def run_guessing_game
     puts "You guess the correct number!"
   else
     puts "Sorry, the computer guess #{secret}"
-    
+  end
 end
