@@ -7,6 +7,6 @@ def run_guessing_game
   elsif un == secret
     puts "You guess the correct number!"
   else
-    
+    puts "Sorry, the computer guess #{secret}"
     
 end
