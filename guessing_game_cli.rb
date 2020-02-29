@@ -5,6 +5,8 @@ def run_guessing_game
   if un == "exit"
     puts "Goodbye!"
   elsif un == secret
+    puts "You guess the correct number!"
+  else
     
     
 end
