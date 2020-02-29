@@ -13,9 +13,9 @@ def get_guess
 end
 
 def run_guessing_game
-  sn = generate_num
+  sn = generate_num.to_s
   prompt_user
-  g = get_guess.to_i
+  g = get_guess
   if "exit" == g
     puts "Goodbye!"
   elsif sn == g
