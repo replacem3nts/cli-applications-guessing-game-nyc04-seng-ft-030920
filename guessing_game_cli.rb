@@ -18,6 +18,6 @@ def run_guessing_game
   if g == "exit"
     puts "Goodbye!"
   else
-    g == sn ? (puts "You guessed the correct number!") : (puts "Sorry! the computer guessed #{sn}.")
+    g = sn ? (puts "You guessed the correct number!") : (puts "Sorry! the computer guessed #{sn}.")
   end
 end
