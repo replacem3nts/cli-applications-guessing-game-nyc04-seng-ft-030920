@@ -1,3 +1,4 @@
+require "pry"
 
 def generate_num
   rand(5) + 1
@@ -17,6 +18,7 @@ def run_guessing_game
   g = get_guess
   if "exit" == g
     puts "Goodbye!"
+    binding.pry
   elsif sn == g
     puts "You guessed the correct number!"
   else 
