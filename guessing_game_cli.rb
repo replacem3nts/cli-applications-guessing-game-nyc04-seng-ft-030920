@@ -16,7 +16,8 @@ def run_guessing_game
   sn = generate_num
   prompt_user
   g = get_guess
-  binding.pry
+  p sn
+  p g
   if "exit" == g
     puts "Goodbye!"
   elsif sn == g
