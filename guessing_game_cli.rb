@@ -15,9 +15,9 @@ def run_guessing_game
   sn = generate_num
   prompt_user
   g = get_guess
-  if g == "exit"
+  if "exit" == g
     puts "Goodbye!"
-  elsif g == sn
+  elsif sn == g
     puts "You guessed the correct number!"
   else 
       puts "Sorry! The computer guessed #{sn}."
